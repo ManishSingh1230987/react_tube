@@ -1,0 +1,45 @@
+.category-btn {
+  background: transparent;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 7px 15px;
+  margin: 10px 0;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category-btn:focus,
+.category-btn:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.category-btn.selected {
+  background: #FC1503;
+}
+
+.category-btn:not(.selected):hover {
+  border: 2px solid #FC1503;
+}
+
+.category-btn .icon {
+  color: red;
+  margin-right: 15px;
+}
+
+.category-btn.selected .icon {
+  color: white;
+}
+
+.category-btn .category-name {
+  opacity: 0.8;
+}
+
+.category-btn.selected .category-name {
+  opacity: 1;
+}
