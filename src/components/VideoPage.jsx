@@ -2,7 +2,7 @@ import React from 'react';
 import { Box } from '@mui/material';
 import Sidebar from './SideBar';
 import Videos from './Videos';
-import VideoDetail from './VideoDetail';
+import VIdeoDetail from './VIdeoDetail';
 import { useParams } from 'react-router-dom';
 
 const VideoPage = () => {
