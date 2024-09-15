@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box } from '@mui/material';
-import Sidebar from './SideBar';
+import Sidebar from './Sidebar';
 import Videos from './Videos';
 import VIdeoDetail from './VIdeoDetail';
 import { useParams } from 'react-router-dom';
@@ -28,7 +28,7 @@ const VideoPage = () => {
         overflowY: 'auto',
         height: '100%'
       }}>
-        {id ? <VideoDetail /> : <Videos />}
+        {id ? <VIdeoDetail /> : <Videos />}
       </Box>
     </Box>
   );
